@@ -15,6 +15,7 @@
 		64AA13D7205135BF0058549C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AA13D6205135BF0058549C /* main.m */; };
 		64AA13E1205135BF0058549C /* WHWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AA13E0205135BF0058549C /* WHWebViewTests.m */; };
 		64AA13EC205135BF0058549C /* WHWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AA13EB205135BF0058549C /* WHWebViewUITests.m */; };
+		64AA13FE20513A3B0058549C /* WHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AA13FD20513A3B0058549C /* WHWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		64AA13E7205135BF0058549C /* WHWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AA13EB205135BF0058549C /* WHWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHWebViewUITests.m; sourceTree = "<group>"; };
 		64AA13ED205135BF0058549C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64AA13FC20513A3B0058549C /* WHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHWebViewController.h; sourceTree = "<group>"; };
+		64AA13FD20513A3B0058549C /* WHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				64AA13C8205135BF0058549C /* AppDelegate.m */,
 				64AA13CA205135BF0058549C /* ViewController.h */,
 				64AA13CB205135BF0058549C /* ViewController.m */,
+				64AA13FC20513A3B0058549C /* WHWebViewController.h */,
+				64AA13FD20513A3B0058549C /* WHWebViewController.m */,
 				64AA13CD205135BF0058549C /* Main.storyboard */,
 				64AA13D0205135BF0058549C /* Assets.xcassets */,
 				64AA13D2205135BF0058549C /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AA13FE20513A3B0058549C /* WHWebViewController.m in Sources */,
 				64AA13CC205135BF0058549C /* ViewController.m in Sources */,
 				64AA13D7205135BF0058549C /* main.m in Sources */,
 				64AA13C9205135BF0058549C /* AppDelegate.m in Sources */,
